@@ -22,7 +22,7 @@ SoMME Student Challenge: [Thesis Submission Information](https://www.mechmining.
 We also recommend one of the following downloads for using LaTeX on your own computer: 
 [TeXworks](http://www.tug.org/texworks/), [TeXstudio](https://www.texstudio.org/), and [TeXlipse](http://texlipse.sourceforge.net/) (plugin for Eclipse IDE).
 
-Alternatively, you can use a cloud-based LaTeX editor such as [Overleaf](https://www.sharelatex.com/).
+Alternatively, you can use a cloud-based LaTeX editor such as [Overleaf](https://www.overleaf.com/).
 For all other LaTeX information, Overleaf has an easily searchable and comprehensive set of [documentation](https://www.overleaf.com/learn).
 
 ## Project Kits

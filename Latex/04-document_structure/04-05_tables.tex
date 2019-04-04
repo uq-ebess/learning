@@ -1,0 +1,34 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Part of EBESS and MESS Presentation: Learn to LaTeX 2019
+% Prepared by JT
+% March 2019
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[]{article}
+\usepackage{tabularx} % this one is important
+
+\title{Tables}
+\author{Joshua Tambunan}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+% 1. Making a table without outline
+Here's a table with no lines:\\~\\
+\begin{tabular}{lrr} % column alignment: left right right
+    Item    & Qty   & Unit \$   \\
+    Widget  & 1     & 199.99    \\
+    Gadget  & 2     & 399.99    \\
+    Cable   & 3     & 19.99
+\end{tabular}\\~\\
+
+% 2. Making a table with lines
+Here is another format:\\~\\
+\begin{tabular}{|l|r|r|} \hline
+    Item    & Qty   & Unit \$   \\\hline
+    Widget  & 1     & 199.99    \\
+    Gadget  & 2     & 399.99    \\
+    Cable   & 3     & 19.99     \\\hline
+\end{tabular}
+
+\end{document}

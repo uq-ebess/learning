@@ -1,0 +1,30 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Part of EBESS and MESS Presentation: Learn to LaTeX 2019
+% Prepared by JT
+% March 2019
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[]{article}
+\usepackage{natbib} % this one is important
+
+\title{Bibliography}
+\author{Joshua Tambunan}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+% bibliography time! Don't wanna lose easy marks
+\citet{Brooks1997Methodology}
+show that \ldots. Clearly,
+all odd numbers are prime
+\citep{Jacobson1999Towards}
+
+% chuck the file path and name
+\bibliography{bib-exercise}
+% it doesn't like a different directory
+%\bibliography{../database/example}
+
+% style
+\bibliographystyle{plainnat} % try changing to abbrvnat
+
+\end{document}

@@ -1,0 +1,57 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Part of EBESS and MESS Presentation: Learn to LaTeX 2019
+% Prepared by JT
+% March 2019
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass{article}
+\usepackage{amsmath}    % AMS: American Mathematics Society
+\usepackage{amssymb}
+
+\title{Bigger, better equations}
+\author{Joshua Tambunan}
+\date{March 2019}
+
+\begin{document} 
+\maketitle
+
+% 1. Let's show em what LaTeX is all about: using an environment
+The roots of a quadratic equation are given by 
+\begin{equation}
+    x = \frac{-b \pm \sqrt {b^2 - 4ac}}
+             {2a}
+% Ooof where did you learn how to indent for readability like that??
+\end{equation}
+
+% 2. This one is for all those with stat problems
+Time to find the probability of Type II error in any hypothesis test–incorrectly concluding no statistical significance: beta.
+\begin{equation*}
+    \beta_i = 
+    \frac{\text{Cov}(R_i, R_m)}
+         {\operatorname{Var}(R_m)}
+\end{equation*}
+
+% 3. Aligning your values
+Your manager at Rio Tinto wants you to prove a notorious high school proof:
+The square root of 2 is irrational, namely $$\sqrt{2} \not\in \mathbb{Q}$$
+\textbf{Proof:}\\
+First, we need to use $\sqrt{2} > 1$.
+\begin{enumerate}
+    \item Assume that $\sqrt{2}$ is rational $\implies \exists m, n \in \mathbb{Z},
+          n \neq 0$ s.t. $m/n = \sqrt{2}$
+    \item Then $\sqrt{2}$ can also be written as an irreducible fraction $m/n$ with
+            positive integers, because $\sqrt{2} > 0$. This implies $\sqrt{2}n = m$
+    \item Then
+    % ok so this a huge learning point here
+    \begin{align*}
+        \sqrt{2} &= \frac{\sqrt{2} \cdot (\sqrt{2}-1)}
+                         {n(\sqrt{2}-1)}\\~\\
+                 &= \frac{2n - \sqrt{2}n}
+                         {\sqrt{2}n-n}\\~\\
+                 &= \frac{2n - m}{m - n}
+    \end{align*}
+    \item Since $\sqrt{2} > 1$, it follows that $m > n$, which in turn implies that         $m > 2n - m$.
+    \item So the fraction $m/n$ for $\sqrt{2}$, which according to (2) is already in lowest terms, is represented by (3) in strictly lower terms. This is a contradiction, so the assumption that $\sqrt{2}$ is rational must be false.
+\end{enumerate}
+
+Mind f*cked? No? I'm impressed.
+\end{document} 

@@ -1,0 +1,45 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Part of EBESS and MESS Presentation: Learn to LaTeX 2019
+% Prepared by JT
+% March 2019
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+ 
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+ 
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+
+% OK OK, I know most of you won' t need this one but shout-out to all
+% my science homies out there in the struggle, you know what's up
+
+\begin{document}
+\begin{lemma}
+When I flex my \LaTeX{} skills, I'm a gangsta because I have game.
+\end{lemma}
+ 
+\begin{proof}
+\begin{align}
+    9x-7i &> 3(3x-7u)\\
+    9x-7i &> 9x - 21u\\
+    -7i &> -21u\\
+    i \quad &<3 \quad u
+\end{align}
+$\therefore$ \text{I am gangsta \&\&\&.}
+\end{proof}
+
+
+\end{document}

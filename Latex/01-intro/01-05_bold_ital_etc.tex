@@ -1,0 +1,19 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Welcome to Overleaf --- just edit your LaTeX on the left,
+% and we'll compile it for you on the right. If you open the
+% 'Share' menu, you can invite other users to edit at the same
+% time. See www.overleaf.com/learn for more info. Enjoy!
+%
+% Part of EBESS and MESS Presentation: Learn to LaTeX 2019
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass{article}
+
+\begin{document} 
+Hello world! \emph{Emphasised} words stick out!\\
+%By placing \\ at the end of a paragraph you force a line break but there is nothing at all in the forced final line of the paragraph so it is a box that is \textwidth wide with no content. It appears a bit like vertical space but it is not it is a spurious line at the end of the paragraph. So for example it does not stretch and is not dropped at the start of a page.
+\texttt{what \textit{does} this do?}\\ % this does ...
+\textit{what DOES this do?}\\ % this does ...
+\textbf{what does this do?}\\ % this does ...
+\textsc{what does this do?}\\ % this does ...
+\end{document} 
